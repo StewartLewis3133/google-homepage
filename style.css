@@ -1,0 +1,21 @@
+#body {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 3;
+    grid-auto-rows: 0.5fr;
+}
+
+#google-logo {
+    grid-column: 2; 
+    grid-row: 5;
+}
+
+#search-box {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+#search-box input {
+    width: 260px;
+    border-width: 0px;
+}
